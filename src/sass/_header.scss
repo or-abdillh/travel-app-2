@@ -3,6 +3,7 @@
 
 .header {
    @include flex-center(space-between, row);
+   margin-bottom: 1.5rem;
    
    .header-profile {
       @include flex-center(space-between, row);

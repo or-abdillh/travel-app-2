@@ -1,0 +1,56 @@
+@import './_colors';
+@import './_mixins';
+
+.search-bar {
+   @include flex-center(space-between, row);
+   max-width: 100%;
+   
+   .search-bar-wrapper {
+      max-width: 82%;
+      @include flex-center(space-evenly, row);
+      background: $flash-white;
+      border-radius: 12px;
+      
+      input {
+         padding: .45rem .65rem .45rem 0;
+         max-width: 80%;
+         border: none;
+         background: $flash-white;
+         color: rgba($dark, .65);
+         font-size: .75rem;
+         
+         &:focus, &:active {
+            outline: none;
+            
+             &::placeholder {
+                color: rgba($dark, .65);
+             }
+         }
+      }
+      
+      i, input::placeholder {
+         font-size: .75rem;
+         color: $gray;
+      }
+   }
+   
+   .search-bar-filter {
+      background-image: linear-gradient(
+      to bottom, $primary 60%, rgba($primary, .5) 
+      );
+      padding: .35rem .55rem;
+      border-radius: 12px;
+      font-size: .85rem;
+      transition: .3s;
+      
+      i {
+         color: white;
+      }
+      
+      &:active {
+         background-image: linear-gradient(
+         to left, $primary 40% , rgba($primary, .5) 
+         );
+      }
+   }
+}
