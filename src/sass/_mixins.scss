@@ -1,0 +1,21 @@
+@import './_colors'
+
+//Mixins For Font Style
+@mixin fonts($weight: 400, $color, $size) {
+   font-family: 'Poppins', Sans-Serif;
+   color: $color;
+   font-weight: $weight;
+   font-size: $size;
+}
+
+//Mixins for positioning and alignments
+@mixin grid-center {
+   display: grid;
+   place-items: center;
+}
+@mixin flex-center($direction) {
+   display: flex;
+   justify-content: center;
+   flex-direction: $direction;
+   align-items: center;
+}

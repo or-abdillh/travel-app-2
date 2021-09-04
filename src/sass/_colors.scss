@@ -1,0 +1,19 @@
+//colors
+$dark: #060809;
+$primary: #2E93AA;
+$gray: #CED6D9;
+$white: #FFFFFF;
+
+//Background Class
+.bg-dark {
+   background: $dark;
+}
+.bg-primary {
+   background: $primary;
+}
+.bg-gray {
+   background: $gray;
+}
+.bg-white {
+   background: $white;
+}
