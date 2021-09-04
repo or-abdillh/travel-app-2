@@ -4,6 +4,7 @@
 .search-bar {
    @include flex-center(space-between, row);
    max-width: 100%;
+   margin-bottom: 1rem;
    
    .search-bar-wrapper {
       max-width: 82%;

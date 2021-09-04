@@ -1,0 +1,33 @@
+@import './_colors';
+@import './_mixins';
+
+.category {
+   max-width: 100%;
+   overflow: scroll;
+   display: flex;
+   flex-wrap: nowrap;
+   
+   &::-webkit-scrollbar {
+      display: none;
+   }
+   
+   .active {
+      background: $primary!important;
+      color: $flash-white!important;
+   }
+   
+   .category-badge {
+      display: block;
+      background: $flash-white;
+      border-radius: 12px;
+      padding: .2rem .65rem;
+      font-size: .7rem;
+      font-weight: 500;
+      color: rgba($dark, .5);
+      transition: .3s;
+      
+      &:not(:last-child) {
+         margin-right: .5rem;
+      }
+   }
+}
