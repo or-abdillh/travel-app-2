@@ -4,6 +4,17 @@
       <SearchBar></SearchBar>
       <Category></Category>
       <Nav></Nav>
+      <div class="content">
+         <div class="content-title">
+            <strong>Recomended</strong>
+            <small>see more</small>
+         </div>
+         <div class="content-card">
+            <template v-for="card in 4" :key="card" >
+               <Card></Card>
+            </template>
+         </div>
+      </div>
    </section>
 </template>
 
@@ -13,6 +24,7 @@
    import SearchBar from '../components/SearchBar.vue'
    import Category from '../components/Category.vue'
    import Nav from '../components/Nav.vue'
+   import Card from '../components/Card.vue'
    
    export default {
       name: 'Home',
@@ -20,7 +32,8 @@
          Header,
          SearchBar,
          Category,
-         Nav
+         Nav,
+         Card
       }
    }
 </script>

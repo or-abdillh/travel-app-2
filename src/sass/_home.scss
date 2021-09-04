@@ -2,5 +2,23 @@
 @import './_mixins';
 
 #home {
-   @include padd()
+   @include padd();
+   
+   .content {
+      width: 100%;
+      
+      
+      .content-title {
+         display: flex;
+         justify-content: space-between;
+         
+         strong {
+            font-size: .75rem;
+         }
+         
+         small {
+            font-size: .65rem;
+         }
+      }
+   }
 }

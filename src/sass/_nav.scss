@@ -4,15 +4,18 @@
 .nav {
    @include flex-center(space-around, row);
    max-width: 100%;
-   padding-bottom: 1rem;
+   padding: .55rem .35rem;
    position: fixed;
    bottom: 0;
    left: 0;
    right: 0;
+   background: $flash-white;
+   z-index: 99;
    
    .active {
       background: $dark;
-      border-radius: 12px;;
+      border-radius: 12px;
+      box-shadow: 3px 5px 8px $gray;
       
       i, span {
          color: white;
@@ -21,7 +24,7 @@
    
    .nav-item {
       @include flex-center(space-between, row);
-      padding: .45rem .85rem;
+      padding: .55rem .85rem;
       transition: .1s;
       
       span {
