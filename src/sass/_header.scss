@@ -1,0 +1,60 @@
+@import './_colors';
+@import './_mixins';
+
+.header {
+   @include flex-center(space-between, row);
+   
+   .header-profile {
+      @include flex-center(space-between, row);
+      
+      .profile-img {
+         display: block;
+         background: rgba($primary, .65);
+         padding: 0 .45rem;
+         border-radius: 10px;
+         
+         i {
+            font-size: .65rem;
+            color: rgba(white, .85);
+         }
+      }
+      .profile-wellcome {
+         margin-left: .75rem;
+         
+         small, strong {
+            display: block;
+            line-height: 125%;
+         }
+         small {
+            font-size: .45rem;
+            font-weight: 700;
+            color: rgba($dark, .7);
+         }
+         strong {
+            font-size: .75rem;
+            font-weight: 700;
+         }
+      }
+   }
+   
+   .header-bell {
+      i {
+         color: $gray;
+         position: relative;
+         
+         &::after {
+            display: block;
+            content: '';
+            background: rgba($dark, .5);
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: -1px;
+            backdrop-filter: blur(8px);
+            border: 1.5px solid white;
+         }
+      }
+   }
+}

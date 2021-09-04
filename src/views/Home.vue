@@ -1,5 +1,7 @@
 <template>
-   <Header></Header>
+   <section id="home">
+      <Header></Header>
+   </section>
 </template>
 
 <script>
@@ -15,5 +17,10 @@
          
       }
    }
-   
 </script>
+
+<style lang="scss">
+   
+   @import './src/sass/_home'
+   
+</style>

@@ -18,4 +18,5 @@
 /* body */
 body {
    background: #FFFFFF;
+   min-height: 120vh;
 }

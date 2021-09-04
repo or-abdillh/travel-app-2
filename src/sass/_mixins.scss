@@ -1,4 +1,4 @@
-@import './_colors'
+@import './_colors';
 
 //Mixins For Font Style
 @mixin fonts($weight: 400, $color, $size) {
@@ -13,9 +13,14 @@
    display: grid;
    place-items: center;
 }
-@mixin flex-center($direction) {
+@mixin flex-center($justify, $direction) {
    display: flex;
-   justify-content: center;
+   justify-content: $justify;
    flex-direction: $direction;
    align-items: center;
+}
+
+//Mixins or utilities
+@mixin padd {
+   padding: .75rem .85rem;
 }
