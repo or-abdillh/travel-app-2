@@ -9,14 +9,14 @@
    .search-bar-wrapper {
       max-width: 82%;
       @include flex-center(space-evenly, row);
-      background: $flash-white;
+      background: $white;
       border-radius: 12px;
       
       input {
          padding: .45rem .65rem .45rem 0;
          max-width: 80%;
          border: none;
-         background: $flash-white;
+         background: $white;
          color: rgba($dark, .65);
          font-size: .75rem;
          
