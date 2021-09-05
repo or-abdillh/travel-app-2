@@ -5,7 +5,7 @@
          <i class="fa fa-bookmark" ></i>
       </span>
       <div class="card-content">
-         <strong>Ice Caves</strong>
+         <strong @click="$router.push({name: 'Details'})" >Ice Caves</strong>
          <small>
             <i class="fas fa-map-marker-alt"></i>
             Iceland

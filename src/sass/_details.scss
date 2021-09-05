@@ -1,0 +1,55 @@
+@import './_colors';
+@import './_mixins';
+
+#details {
+   @include padd;
+   
+   .details-img {
+      width: 100%;
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      
+      img {
+         max-width: 100%;
+         display: block;
+         line-height: 0;
+      }
+      
+      .details-img-text {
+         position: absolute;
+         bottom: 20px;
+         left: 20px;
+         
+         strong, small {
+            display: inline-block;
+            width: 100%;
+         }
+         
+         strong, i {
+            font-size: .75rem;
+            color: rgba($flash-white, .85);
+         }
+         
+         strong {
+            background: rgba($gray, .2);
+            font-weight: 700;
+            width: auto;
+            padding: .25rem .45rem;
+            border-radius: 12px;
+            backdrop-filter: blur(2px);
+            margin-bottom: .25rem;
+         }
+         
+         small {
+            color: $gray;
+            font-weight: 700;
+            
+            &:not(:last-child) {
+               font-size: .85rem;
+               margin-bottom: -.3rem;
+            }
+         }
+      }
+   }
+}
