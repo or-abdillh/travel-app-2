@@ -28,7 +28,7 @@
             <div class="person">
                <span>
                   <i class="fa fa-user" ></i>
-                  Person
+                  Persons
                </span>
                <span>
                   <button @click="person++" type="button">+</button>

@@ -9,6 +9,10 @@
    box-shadow: 3px 8px 20px rgba($dark, .5);
    position: relative;
    
+   &:last-child {
+      margin-bottom: 4rem;
+   }
+   
    img {
       max-width: 100%;
       display: block;
