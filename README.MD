@@ -6,7 +6,7 @@
 ### About
 This is my projects to make UI using front end tech 
 
-Hhere the ideas and the concept i use from any other designer UI/UX from Instagram or Dribbble
+Where the ideas and the concept i use from any other designer UI/UX from Instagram or Dribbble
 
 ### Languages and Tools
 - Vue Js 3
