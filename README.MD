@@ -34,7 +34,7 @@ this project just available to mobile screen 📌
 - <code>node node_modules/esbuild/install.js</code> to install manually
 
 ### Demo 
-- [Travel App](https://omdb-app-hazel.vercel.app/)
+- [Travel App](https://travel-app-2.vercel.app/)
 - [Reels Instagram](http://instagram.com)
 
 [Oka R Abdillah ](http://github.com/or-abdillh)
