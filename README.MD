@@ -35,7 +35,7 @@ this project just available to mobile screen 📌
 
 ### Demo 
 - [Travel App](https://travel-app-2.vercel.app/)
-- [Reels Instagram](http://instagram.com)
+- [Reels Instagram](https://www.instagram.com/reel/CTdu0RCFM0-/?utm_medium=copy_link)
 
 [Oka R Abdillah ](http://github.com/or-abdillh)
 <br>
